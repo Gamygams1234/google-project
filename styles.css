@@ -15,7 +15,7 @@ header ul li {
 }
 #content {
   /* this is what we use to bouce it down */
-  margin-top: 200px !important;
+  margin-top: 150px !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -41,4 +41,50 @@ header ul li {
   padding: 5px;
   margin: 0px 0px 5px 0px;
   border-radius: 20px;
+}
+#search-buttons {
+  clear: both;
+  margin-top: 30px;
+}
+
+.button {
+  border-radius: 2px;
+  width: 140px;
+  height: 40px;
+  background-color: #f3f3f3;
+  color: #686363;
+  /* going to let them side to side and not affect the other */
+  position: relative;
+  font-size: 0.8em;
+  font-family: Arial;
+  text-align: center;
+  font-weight: 600;
+  margin: 0px 5px 5px 5px;
+  border: 0px solid white;
+}
+footer {
+  /* this will ensure that our content stays on the bottom of the page rather than floting aimlessly */
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #d1d1d1;
+  text-align: right;
+  width: 100%;
+  background-color: white;
+  margin-bottom: 0px;
+}
+footer ul li {
+  /* set the li items side to side */
+  display: inline-block;
+  /*  give them some space */
+  margin: 10px;
+}
+#footer-left {
+  float: left;
+}
+
+#footer-right {
+  float: right;
+  /* has to have space since the text is going to the right */
+  margin-right: 30px;
 }

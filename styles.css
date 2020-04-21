@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+}
+header {
+  /* this will stack all of our items to the right */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: right;
+}
+header ul li {
+  /* setting the items side to side */
+  display: inline-block;
+  margin: 10px;
+}
+#content {
+  /* this is what we use to bouce it down */
+  margin-top: 200px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#logo {
+  /* let us have items on top of each other and not side to side */
+  clear: both;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
+#search {
+  clear: both;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+#search-box {
+  width: 600px;
+  height: 15px;
+  border: 1px solid #999999;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
+  border-radius: 20px;
+}
